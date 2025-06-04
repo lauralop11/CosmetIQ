@@ -1,7 +1,6 @@
 import { Layout } from "../Layout"
 import { Title } from "../Title"
 import {Card} from "../Card"
-import logo from '../../assets/logo/Subject.png'
 
 const Service = () => {
   
