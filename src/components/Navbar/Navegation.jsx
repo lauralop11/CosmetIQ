@@ -9,10 +9,9 @@ const Navbar = () => {
     {to: 'service', text: 'Servicios',},
     {to: 'contact', text: 'Contactenos',},
   ];
-  const textDecoration = 'underline underline-offset-4'
 return(
   
-  <nav className="navbar flex font-playfair-display sticky top-0 z-20 shadow">
+  <nav className="navbar flex font-playfair-display sticky top-0 z-20 shadow text-lg">
     <div className="navbar-logo flex w-full md:w-1/2 p-4 ">
       <img src={logo} alt="Cosmet+IQ logo" className="w-10 h-10 self-center"/>
       <div className="text-white flex flex-col justify-center">

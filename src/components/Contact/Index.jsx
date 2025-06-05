@@ -1,4 +1,3 @@
-import { Layout } from "../Layout"
 import { Title } from "../Title"
 import logo from '../../assets/logo/Subject.png'
 
@@ -19,7 +18,7 @@ prácticas que garantizan la calidad y la seguridad de tus productos.</p>
           <img src={logo} alt="logo" className="absolute -z-1 md:-top-2 md:left-20 -top-5 left-10 grayscale opacity-[0.3]"/>
          </div>
         </div>
-          <div className="bg-seconde p-5 text-white font-[verdana] text-center font-bold">
+          <div className="bg-seconde p-5 text-white text-center font-bold text-lg tracking-widest">
             <p><span></span>Teléfono: +57 350 311 89 75</p>
             <p><span></span>Correo Electrónico: dircientifica.cosmetiq@gmail.com</p>
           </div>

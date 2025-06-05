@@ -35,10 +35,10 @@ const Service = () => {
     <Layout>
       <section id="service">
         <Title>Nuestros Servicios</Title>
-      <ul className="mx-6 md:flex md:w-full md:overflow-y-scroll">
+      <ul className="md:flex md:max-w-full md:m-auto md:snap-x md:overflow-x-auto">
       {
       Object.keys(cardsData).map((key) => (
-        <li key={key} className="md:flex-none md:max-w-[400px]">
+        <li key={key} className="md:flex-none md:max-w-1/3 md:snap-center">
         <Card key={key} title={cardsData[key].title} content={cardsData[key].content} list={cardsData[key].list} />
         </li>
       ))}
