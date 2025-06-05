@@ -4,6 +4,7 @@ import logo from '../../assets/logo/Subject.png'
 const Contact = () => {
   return (
       <div id="contact">
+
         <Title>Contactenos</Title>
         <div className="relative m-3 px-20 py-10 text-gray-700 w-screen">
           <p className="font-[verdana]  md:flex hidden">Estamos comprometidos en ofrecer soluciones integrales y personalizadas para el
@@ -25,4 +26,5 @@ prácticas que garantizan la calidad y la seguridad de tus productos.</p>
       </div>
   )
 }
-export default Contact
+
+export default Contact;
