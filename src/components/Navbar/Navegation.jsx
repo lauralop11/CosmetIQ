@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
 return(
   
-  <nav className="navbar flex font-playfair-display sticky top-0 z-20 shadow text-lg">
+  <nav className="navbar flex font-playfair-display sticky top-0 z-20 text-lg shadow-lg shadow-seconde/30">
     <div className="navbar-logo flex w-full md:w-1/2 p-4 ">
       <img src={logo} alt="Cosmet+IQ logo" className="w-10 h-10 self-center"/>
       <div className="text-white flex flex-col justify-center">
@@ -22,7 +22,7 @@ return(
     <ul className="navbar-list md:flex hidden justify-rigth bg-white h-full md:w-1/2 mx-auto justify-around ">
       {
         menuRoutes.map((item, index) => 
-          <li key={index} className='self-center cursor-pointer md:hover:underline' >
+          <li key={index} className='text-xl self-center cursor-pointer md:hover:underline' >
             <Link to={item.to} smooth={true} duration={500} >{item.text} </Link>
           </li>
           )

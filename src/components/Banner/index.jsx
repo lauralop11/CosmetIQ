@@ -4,7 +4,7 @@ import { Layout } from '../Layout'
 const Banner = () => {
   return(
     <Layout>
-      <div className="relative w-full h-80 mb-3">
+      <div className="relative w-full h-80 my-5">
         <div>
           <img src={logobanner} alt="laboratorio quimico" className='w-full h-80 object-cover' />
         </div>
@@ -18,7 +18,6 @@ const Banner = () => {
       </div>
       <div className='bg-seconde my-5 w-full h-0.5'> </div>
     </Layout>
-
   )
 }
 export default Banner
